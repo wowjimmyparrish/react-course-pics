@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ImageShow() {
+function ImageShow({image}) {
   return (
-    <div>ImageShow</div>
+    <div>{image.id}</div>
   )
 }
 
